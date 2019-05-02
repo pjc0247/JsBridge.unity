@@ -36,4 +36,4 @@ private int MySum(Dictionary<string, int> p) {
 }
 ```
 
-Since C# is a strongly typed language, you have to make some effors for it.
+Since C# is a strongly typed language, you have to make some effors for it. C# is not a JS.
