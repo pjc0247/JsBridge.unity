@@ -5,7 +5,8 @@ A small snippet that replaces `SendMessage` in Unity+WebGL.
 
 Why
 ----
-__SendMessage__ is the only way to invoke C# functions from Javascript. However, it's totally unusable because...
+__SendMessage__ is the only way to invoke C# functions from Javascript.<br>
+However, it's totally unusable because...
 
 * `SendMessage` can't return a value. So there's no official way to retrive values from Unity to Javascript.
 * `SendMessage` can have only one parameter. Even worse, it only accepts `int`, `string` and `null`.
