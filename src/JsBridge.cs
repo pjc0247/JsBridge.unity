@@ -126,7 +126,7 @@ public class JsBridge : MonoBehaviour
     {
         var packet = JsonConvert.DeserializeObject<Js2UnityPacket>(msg);
 
-        Func<int, string, object> func = null;
+        Func<int, string, Unity2JsPacket> func = null;
         if (functions.TryGetValue(packet.function, out func))
         {
             func(packet.pid, packet.message);
