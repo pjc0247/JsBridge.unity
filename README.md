@@ -28,3 +28,12 @@ private int MySum(MySumRequest p) {
   return p.a + p.b;
 }
 ```
+
+If you think this is infficient, try this:
+```cs
+private int MySum(Dictionary<string, int> p) {
+  return p["a"] + p["b"];
+}
+```
+
+Since C# is a strongly typed language, you have to make some effors for it.
