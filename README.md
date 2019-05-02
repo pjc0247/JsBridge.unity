@@ -29,7 +29,7 @@ private int MySum(MySumRequest p) {
 }
 ```
 
-If you think this is infficient, try this:
+If you think this is infficient, try this way:
 ```cs
 private int MySum(Dictionary<string, int> p) {
   return p["a"] + p["b"];
